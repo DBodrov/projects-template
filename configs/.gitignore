@@ -1,0 +1,46 @@
+### OSX ###
+.DS_Store
+
+
+
+### EDITORS ###
+
+# VisualStudio
+.vscode/*
+
+# SublimeText #
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+
+
+
+### PACKAGE MANAGERS ###
+
+# npm & yarn
+node_modules/
+
+
+
+### PRODUCTION BUILDS ###
+
+dist/
+
+
+### SERVERS ###
+
+reports/*
+#server/*
+#development/common/constants/config/index.js
+
+
+### TESTING ###
+/coverage
+*.log
+\.idea/
+*.rest
+
+cypress/screenshots
+
+.env
+/.npmrc
